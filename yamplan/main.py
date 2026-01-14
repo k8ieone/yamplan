@@ -158,7 +158,8 @@ def load_plan(path: str) -> Tuple[Number, Node]:
     return income, root
 
 
-def main(argv: List[str]) -> int:
+def main() -> int:
+    argv: List[str] = sys.argv
     if len(argv) != 2:
         print("Usage: python budget.py plan.yml", file=sys.stderr)
         return 2
@@ -170,4 +171,4 @@ def main(argv: List[str]) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv))
+    raise SystemExit(main())

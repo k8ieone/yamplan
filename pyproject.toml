@@ -17,4 +17,4 @@ dependencies = [
 ]
 
 [project.scripts]
-sedit = "src.main:main"
+yamplan = "yamplan.main:main"
