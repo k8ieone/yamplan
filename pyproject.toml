@@ -10,7 +10,7 @@ readme = 'README.md'
 requires-python = '>=3.8'
 license = {file = 'LICENSE'}
 authors = [
-	{name = 'Kateřina Medvědová'},
+    {name = 'Kateřina Medvědová'},
 ]
 dependencies = [
     "PyYAML"

@@ -1,2 +1,3 @@
 from .main import main
-main()
+import sys
+main(sys.argv)
